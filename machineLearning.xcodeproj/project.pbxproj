@@ -16,6 +16,7 @@
 		6316C9E82893E88E00282B44 /* machineLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6316C9E72893E88E00282B44 /* machineLearningTests.swift */; };
 		6316C9F22893E88E00282B44 /* machineLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6316C9F12893E88E00282B44 /* machineLearningUITests.swift */; };
 		6316C9F42893E88E00282B44 /* machineLearningUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6316C9F32893E88E00282B44 /* machineLearningUITestsLaunchTests.swift */; };
+		6316CA012893FBBE00282B44 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6316CA002893FBBE00282B44 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6316C9ED2893E88E00282B44 /* machineLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = machineLearningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6316C9F12893E88E00282B44 /* machineLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = machineLearningUITests.swift; sourceTree = "<group>"; };
 		6316C9F32893E88E00282B44 /* machineLearningUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = machineLearningUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6316CA002893FBBE00282B44 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				6316C9D92893E88D00282B44 /* Assets.xcassets */,
 				6316C9DB2893E88D00282B44 /* LaunchScreen.storyboard */,
 				6316C9DE2893E88D00282B44 /* Info.plist */,
+				6316CA002893FBBE00282B44 /* MobileNetV2.mlmodel */,
 			);
 			path = machineLearning;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				6316C9D52893E88B00282B44 /* ViewController.swift in Sources */,
 				6316C9D12893E88B00282B44 /* AppDelegate.swift in Sources */,
+				6316CA012893FBBE00282B44 /* MobileNetV2.mlmodel in Sources */,
 				6316C9D32893E88B00282B44 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
